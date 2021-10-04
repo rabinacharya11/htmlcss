@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Patrick Hand", cursive;
+}
+.footer {
+  height: 10vh;
+  background-color: rgb(5, 2, 24);
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo img {
+  width: 70px;
+  height: 12px;
+  padding: 0 12px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background-color: rgb(63, 105, 223);
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  color: white;
+  padding: 0 12px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+.search-bar {
+  align-items: center;
+  width: 40vw;
+  height: 20px;
+  text-align: center;
+}
+.search-button {
+  margin: 0px 20px;
+  width: 100px;
+  background-color: blue;
+  color: white;
+}
+.container {
+  min-height: calc(100vh - 10vh - 8vh);
+  width: 100vw;
+}
+nav ul li a:hover {
+  color: yellow;
+  font-weight: bolder;
+}
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+#img1{
+    margin:2px auto;
+    width: 80vw;
+}
+.card-header{
+  width: 80vw;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 4px;
+  padding: 0px 14px;  
+}
+.card{
+  margin: 3px auto;
+  width: 80vw;
+}
+.card-items{
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+ 
+
+}
+.card-item{
+  display: flex;
+ padding: 4px;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+}
+.card-item-content{
+padding: 4px;
+}
+.card-item img{
+  width:150px;
+  height: 100px;
+  
+}
+.scroll-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 1900vw; */
+text-align: center;
+}
+.fuck-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 1900vw; */
+text-align: center;
+}
+.scroll-div ul{
+  display: flex;
+  width: 60vw;
+  list-style: none;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.fuck-div ul{
+  display: flex;
+  width: 60vw;
+  list-style: none;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.scroll-div ul li {
+  animation: animateScroll 10s ease-in-out .2s infinite ;
+}
+.fuck-div ul li{
+  animation: animateScroll 10s ease-in-out .2s infinite ;
+}
+.scroll-div ul:hover{
+
+  animation: none;
+}
+.fuck-div ul li:hover{
+
+  animation: none;
+}
+@keyframes animateScroll {
+  0%{
+    transform: translate(0vh);
+  }
+  100%{
+    transform: translate(-200vh);
+  }
+  
+}
