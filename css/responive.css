@@ -1,0 +1,27 @@
+@media screen and (max-width:688px) {
+  body{
+      /* justify-content: center; */
+      background-color: red;
+  }
+  nav{
+      flex-direction: column;
+      height: 50vh;
+      width: 100vw;
+  } 
+  nav ul {
+      flex-direction: column;
+  }
+  nav ul li{
+    padding: 5px 12px
+  }
+  .logo img{
+    padding: 13px 12px;
+  }
+  .search-bar{
+      margin:6px auto;
+      width: 50vw;
+  }
+  #img1{
+    height: 25vh;
+  }
+}

@@ -135,7 +135,7 @@ text-align: center;
   align-items: center;
  
 }
-.scroll-div ul li {
+.scroll-div ul  {
   animation: animateScroll 10s ease-in-out .2s infinite ;
 }
 .fuck-div ul li{
